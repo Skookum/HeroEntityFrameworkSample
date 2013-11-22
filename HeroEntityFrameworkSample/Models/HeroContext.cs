@@ -1,5 +1,4 @@
 using System.Data.Entity;
-using System.Data.Entity.Infrastructure;
 using HeroEntityFrameworkSample.Models.Mapping;
 
 namespace HeroEntityFrameworkSample.Models
@@ -20,7 +19,7 @@ namespace HeroEntityFrameworkSample.Models
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Configurations.Add(new AbilityMap());
+            modelBuilder.Configurations.Add(new SecureAbilityMap());
         }
     }
 }

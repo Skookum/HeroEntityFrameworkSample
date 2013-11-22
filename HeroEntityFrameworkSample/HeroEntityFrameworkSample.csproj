@@ -153,10 +153,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Ability.cs" />
+    <Compile Include="Models\SecureAbility.cs" />
     <Compile Include="Models\AbilityRepository.cs" />
     <Compile Include="Models\HeroContext.cs" />
-    <Compile Include="Models\Mapping\AbilityMap.cs" />
+    <Compile Include="Models\Mapping\SecureAbilityMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
